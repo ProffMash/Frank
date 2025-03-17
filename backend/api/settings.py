@@ -25,12 +25,12 @@ SECRET_KEY = 'django-insecure-e#0*!w4ihghv!=5te8gne6k&bq6m*@9-g2ck!_z&m+h4(f*b*k
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['', '127.0.0.1', 'localhost']
+ALLOWED_HOSTS = ['frankapi.onrender.com', '127.0.0.1', 'localhost']
 
 CORS_ALLOWED_ORIGINS = [
    'http://localhost:5173',
-   '',
-   '',
+   'https://healthcenter-three.vercel.app',
+   'https://frankapi.onrender.com',
 ]
 
 CORS_ALLOW_HEADERS = [
